@@ -1,0 +1,38 @@
+.container-1 {
+   border: 2px solid black;
+   padding: 5px;
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.flex-box-rps {
+   display: flex;
+   border: 1px solid red;
+   padding: 10px;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+   display: flex;
+   padding: 10px;
+   border: 2px solid black;
+   align-items: center;
+}
+
+.flex-box-rps img:hover {
+   box-shadow:0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+.lost-image-shadow {
+   box-shadow:0px 10px 50px rgb(207, 25, 25);
+}
+
+.won-image-shadow {
+   box-shadow:0px 10px 50px rgb(108, 170, 26);
+}
+
+.draw-image-shadow {
+   box-shadow:0px 10px 50px rgb(184, 160, 27);
+}
